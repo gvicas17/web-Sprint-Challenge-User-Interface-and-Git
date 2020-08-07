@@ -208,3 +208,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*about page*/
+
+.aboutboxes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutboxes .middleimages { 
+    text-align: center;
+}
+.middleimages{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.abouttop{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
