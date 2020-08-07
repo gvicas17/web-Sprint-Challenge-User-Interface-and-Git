@@ -66,16 +66,26 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+header{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+nav {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 .navbuttons{
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    justify-content: space-around;
+    width: 70%;
 }
 .lambdalogo{
    display: flex;
@@ -105,6 +115,7 @@ p {
     border-bottom: 1px dashed black;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 2%;
 }
 
 .top-content .text-container {
@@ -113,22 +124,28 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middle-content{
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
     margin-left: 5%;
     margin-right: 5%;
+    border-bottom: 1px dashed black;
+    border-left:5%;
+    border-right: 5%;;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
@@ -175,6 +192,8 @@ background-color: teal;
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: space-around;
 }
 
@@ -189,10 +208,10 @@ background-color: teal;
 }
 
 footer {
-    width: 100%;
     background: black;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 10%;
 }
 
 footer nav {
