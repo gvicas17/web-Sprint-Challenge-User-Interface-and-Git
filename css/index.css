@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px aqua solid;
 }
 
 html, body {
@@ -69,6 +70,16 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.navbuttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lambdalogo{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .top-content {
@@ -143,8 +154,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-/*test note*/
-*{
-    border: 1px aqua solid;
 }
